@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    
+    background-image: url(bg.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.sign-in{
+    background-color: rgb(29, 29, 29);
+    width: 50% ;
+    height: 100vh;
+    float: right;
+    color: darkgrey;
+}
+
+.login-form{
+    background-color: white;
+    color: black;
+    max-width: 400px;
+    height: 65vh;
+    margin: 0 auto;
+    padding: 30px;
+    margin-top: 100px;
+    border-radius: 5px;
+}
+hr{
+    opacity: 50%;
+}
+
+h2{
+    text-align: center;
+    font-family: Helvetica;
+    padding-bottom: 10px;
+
+}
+
+.fill{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input{
+    padding: 20px;
+    width: 350px;
+    margin-bottom: 25px;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    outline: none;
+}
+::placeholder{
+    color: rgb(204, 204, 204);
+}
+
+button{
+    padding: 20px;
+    background-color:tomato;
+    border: none;
+    outline: none;
+    color: black;
+    width: 200px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 50px;
+    color: rgb(36, 36, 36);
+    font-size: 18px;
+}
+
+.or{
+    margin: 20px;
+    text-align: center;
+    font-family: 'Segoe UI';
+    
+}
+.sign-btn{
+    text-align: center;
+}
+
+button:hover{
+    background-color: rgb(233, 94, 70);
+    color: white;
+}
+a:hover{
+    color: teal;
+}
